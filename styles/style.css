@@ -19,7 +19,7 @@ body {
 .btn-secondary {
   border: 1px solid #fd6e0a;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 14px 25px;
   font-size: 20px;
   color: #fd6e0a;
 }
@@ -175,4 +175,26 @@ main {
   margin-top: 50px;
   margin-bottom: 130px;
   text-align: center;
+}
+
+/* contact section styles  */
+.contact-section {
+  display: flex;
+  gap: 100px;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+}
+.contact-section .section-title {
+  text-align: left;
+}
+.contact-section input,
+textarea {
+  margin-bottom: 15px;
+  border: none;
+}
+.contact-section input {
+  width: 416px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
 }
