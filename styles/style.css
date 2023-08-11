@@ -83,6 +83,38 @@ body {
 .discription {
   color: #757575;
 }
-/* .banner-img img {
-  width: 100%;
-} */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About section style */
+.about {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 130px 150px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #181818;
+}
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  text-align: center;
+}
+/*  */
