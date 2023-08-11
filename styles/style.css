@@ -14,7 +14,7 @@ body {
   border-radius: 5px;
   background: #fd6e0a;
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 14px 25px;
 }
 .btn-secondary {
   border: 1px solid #fd6e0a;
@@ -117,4 +117,62 @@ main {
 .info {
   text-align: center;
 }
-/*  */
+/* what i do section style */
+.what-i-do {
+  margin-bottom: 130px;
+}
+.what-description {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #757575;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+}
+.skil {
+  width: 267px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume style */
+.resume-container {
+  display: flex;
+  gap: 25px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sub-titile {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.download-btn {
+  margin-top: 50px;
+  margin-bottom: 130px;
+  text-align: center;
+}
